@@ -1,9 +1,7 @@
 Provisioning JBoss Wildfly RHQ Bundle Demo
 ==========================================
 
-This demo shows how a JBoss application server can be packaged as an RHQ 
-bundle such that it easily provisioned either manually and directly on 
-the application servers or thru JON. 
+This demo shows how a JBoss application server can be packaged as an RHQ bundle such that it easily provisioned either manually and directly on the application servers or thru JON. 
 
 Highlights of the Demo
 ----------------------
@@ -24,6 +22,7 @@ Pre-Installation Setup
 - Extract the contents of rhq-bundle-deployer-4.8.0.zip to the root folder of the demo
 
 Path of rhq-bundle-deployer-4.8.0.zip in rhq-server-4.8.0.zip :
+
 rhq-server-4.8.0.zip\rhq-server-4.8.0\modules\org\rhq\rhq-enterprise-server-startup-subsystem\main\deployments\rhq.ear\rhq-downloads\bundle-deployer\
 
 Command-Line Installation
@@ -32,7 +31,11 @@ Command-Line Installation
 - Navigate to the demo root folder 
 - Configure runtime properties in the file deployment.properties, including path to the deployment folder
 - Execute either install.sh or install.bat based on the OS
-- Based on the <Local IP> configured in the deployment properties as bind address, verify the startup of the server at : http://<Local IP>:9990/
+- Based on the [Local IP] configured in the deployment properties as the bind address, verify the startup of the server at : http://[Local IP]:9990/
+
+Provisioning via JBoss Operations Network
+-----------------------------------------
+[View the blog entry here for detailed steps on provisioning the JON bundle] ()
 
 References
 ----------

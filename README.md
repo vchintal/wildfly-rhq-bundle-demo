@@ -35,7 +35,7 @@ Command-Line Installation
 
 Provisioning via JBoss Operations Network
 -----------------------------------------
-[View the blog entry here for detailed steps on provisioning the JON bundle] ()
+[View the blog entry here for detailed steps on provisioning the JON bundle] (http://everything-jboss.blogspot.com/2013/06/provisioning-jboss-application-server.html)
 
 References
 ----------

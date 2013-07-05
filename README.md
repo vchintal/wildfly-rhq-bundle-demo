@@ -15,19 +15,15 @@ The resulting RHQ bundle:
 
 Pre-Installation Setup
 ----------------------
-- [Download Wildfly 8.0.0.Alpha2] (http://download.jboss.org/wildfly/8.0.0.Alpha2/wildfly-8.0.0.Alpha2.zip)
-- [Download RHQ Server 4.8.0] (http://sourceforge.net/projects/rhq/files/rhq/rhq-4.8.0/rhq-server-4.8.0.zip/download)
-- Unzip the RHQ Server Zip file and locate the rhq-bundle-deployer-4.8.0.zip in the path shown below
-- Copy the wildfly-8.0.0.Alpha2.zip to the root folder of the demo
-- Extract the contents of rhq-bundle-deployer-4.8.0.zip to the root folder of the demo
-
-Path of rhq-bundle-deployer-4.8.0.zip in rhq-server-4.8.0.zip :
-
-rhq-server-4.8.0.zip\rhq-server-4.8.0\modules\org\rhq\rhq-enterprise-server-startup-subsystem\main\deployments\rhq.ear\rhq-downloads\bundle-deployer\
+*For Command-Line installation just run the steps 3 and 4*
+1. [Download Wildfly 8.0.0.Alpha2] (http://download.jboss.org/wildfly/8.0.0.Alpha2/wildfly-8.0.0.Alpha2.zip)
+2. Copy the wildfly-8.0.0.Alpha2.zip to the root folder of the demo
+3. [Download RHQ Bundle Deployer 4.8.0] (http://search.maven.org/remotecontent?filepath=org/rhq/rhq-ant-bundle-common/4.8.0/rhq-ant-bundle-common-4.8.0.zip)
+4. Extract the contents of rhq-ant-bundle-common-4.8.0.zip to the root folder of the demo
 
 Command-Line Installation
 -------------------------
-- Open up Linux terminal or Windows comamnd prompt
+- Open up Linux terminal or Windows command prompt
 - Navigate to the demo root folder 
 - Configure runtime properties in the file deployment.properties, including path to the deployment folder
 - Execute either install.sh or install.bat based on the OS

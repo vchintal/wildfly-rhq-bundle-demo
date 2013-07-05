@@ -50,6 +50,11 @@
 	</rhq:bundle>
 
 	<target name="preinstall">
+		<echo>Downloading the publicly available JBoss AS : wildfly-8.0.0.Alpha2.zip into ${rhq.deploy.dir}</echo>
+		<get src="http://download.jboss.org/wildfly/8.0.0.Alpha2/wildfly-8.0.0.Alpha2.zip" 
+			verbose="true" 
+			usetimestamp="true"
+			dest="wildfly-8.0.0.Alpha2.zip"/>			
 		<echo>Deploying the JBoss EAP bundle to ${rhq.deploy.dir} ...</echo>
 		<property name="preinstallTargetExecuted" value="true" />
 		<rhq:audit status="SUCCESS" action="Preinstall Notice" info="Preinstalling to ${rhq.deploy.dir}" message="Optional message">

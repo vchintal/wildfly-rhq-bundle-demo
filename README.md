@@ -16,10 +16,10 @@ The resulting RHQ bundle:
 Pre-Installation Setup
 ----------------------
 *For Command-Line installation just run the steps 3 and 4*
-1. [Download Wildfly 8.0.0.Alpha2] (http://download.jboss.org/wildfly/8.0.0.Alpha2/wildfly-8.0.0.Alpha2.zip)
-2. Copy the wildfly-8.0.0.Alpha2.zip to the root folder of the demo
-3. [Download RHQ Bundle Deployer 4.8.0] (http://search.maven.org/remotecontent?filepath=org/rhq/rhq-ant-bundle-common/4.8.0/rhq-ant-bundle-common-4.8.0.zip)
-4. Extract the contents of rhq-ant-bundle-common-4.8.0.zip to the root folder of the demo
+ 1. [Download Wildfly 8.0.0.Alpha2] (http://download.jboss.org/wildfly/8.0.0.Alpha2/wildfly-8.0.0.Alpha2.zip)
+ 2. Copy the wildfly-8.0.0.Alpha2.zip to the root folder of the demo
+ 3. [Download RHQ Bundle Deployer 4.8.0] (http://search.maven.org/remotecontent?filepath=org/rhq/rhq-ant-bundle-common/4.8.0/rhq-ant-bundle-common-4.8.0.zip)
+ 4. Extract the contents of rhq-ant-bundle-common-4.8.0.zip to the root folder of the demo
 
 Command-Line Installation
 -------------------------
